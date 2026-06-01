@@ -4,8 +4,8 @@ Project thực hiện bài intern challenge: cộng hai số nguyên không âm 
 
 ## Thông tin nộp bài
 
-- Tên repository đề xuất: `Add2NumCpp`
-- URL sau khi tạo trên GitHub: `https://github.com/<your-github-username>/Add2NumCpp`
+- Tên repository: `Add2NumCpp`
+- URL trên GitHub: `https://github.com/iAmHuyyy/Add2NumCpp`
 - Phiên bản đánh giá: branch `0.0.1`
 - Có thể tạo thêm tag `0.0.1` để người đánh giá dễ checkout đúng phiên bản.
 
@@ -128,33 +128,14 @@ Result: 1234 + 897 = 2131
 
 Trong quá trình cộng, chương trình có ghi log từng bước, ví dụ lấy từng chữ số từ phải sang trái, cộng với số nhớ, ghi chữ số kết quả và cập nhật số nhớ.
 
-## Lệnh Git đề xuất để nộp bài
-
-Sau khi tạo repository public tên `Add2NumCpp` trên GitHub, chạy các lệnh sau trong thư mục project:
-
-```bash
-git init
-git add .
-git commit -m "Complete Add2Num challenge version 0.0.1"
-git branch -M main
-git remote add origin https://github.com/<your-github-username>/Add2NumCpp.git
-git push -u origin main
-
-git checkout -b 0.0.1
-git push -u origin 0.0.1
-
-git tag 0.0.1
-git push origin 0.0.1
-```
-
 ## Kiểm tra lại như người đánh giá
 
 ### Windows
 
 ```powershell
-mkdir D:\Projects\github.com\<your-github-username>
-cd D:\Projects\github.com\<your-github-username>
-git clone -b 0.0.1 https://github.com/<your-github-username>/Add2NumCpp.git
+mkdir D:\Projects\github.com\iAmHuyyy
+cd D:\Projects\github.com\iAmHuyyy
+git clone -b 0.0.1 https://github.com/iAmHuyyy/Add2NumCpp.git
 cd Add2NumCpp
 cmake -S . -B build
 cmake --build build --config Release
@@ -164,9 +145,9 @@ ctest --test-dir build -C Release --output-on-failure
 ### Linux / macOS
 
 ```bash
-mkdir -p ~/Projects/github.com/<your-github-username>
-cd ~/Projects/github.com/<your-github-username>
-git clone -b 0.0.1 https://github.com/<your-github-username>/Add2NumCpp.git
+mkdir -p ~/Projects/github.com/iAmHuyyy
+cd ~/Projects/github.com/iAmHuyyy
+git clone -b 0.0.1 https://github.com/iAmHuyyy/Add2NumCpp.git
 cd Add2NumCpp
 cmake -S . -B build
 cmake --build build
